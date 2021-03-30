@@ -23,6 +23,8 @@ def main():
 
     create_db(namespace.dbname)
     create_everything(namespace.dbname, namespace.file)
+    
+    print("Database is created")
 
 if __name__ == '__main__':
     main()
